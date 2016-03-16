@@ -8,14 +8,11 @@ mozilla.governance                      Governance of the Mozilla Project. (Mode
 :Projectwide Forums
 
 mozilla.affiliates                      The Mozilla Affiliates program, encouraging people to spread the news about Firefox and other Mozilla software (Moderated)
-mozilla.airmozilla                      For discussions related to Mozilla's video distribution site, Air Mozilla. (Moderated)
 mozilla.appreview                       Discussion about Firefox Marketplace app reviews.f
 mozilla.education                       For Mozilla's education initiatives. (Moderated)
 mozilla.evangelism                      Spreading the word. (Moderated)
 mozilla.events                          For discussions about Mozilla events.
 mozilla.general                         For everything with no forum of its own: discussion about any and all aspects of all the things that we're doing here at mozilla.org (high traffic; often off-topic).
-mozilla.governance.mpl-update           Updating the Mozilla Public License to version 2. (Moderated)
-mozilla.it                              Mozilla's IT and operations community. (Moderated)
 mozilla.jobs                            For use by those interested in hiring folks to work on Mozilla-related projects as well as by those seeking such work. (Moderated)
 mozilla.join                            The Join Mozilla public engagement initiative
 mozilla.learning-center                 Resources for Mozillians to learn about Mozilla (Moderated)
@@ -24,7 +21,6 @@ mozilla.marketing                       Our plans for world domination. (Moderat
 mozilla.moss                            For discussions about <a href="http://wiki.mozilla.org/MOSS">Mozilla Open Source Support</a> (MOSS). (Moderated)
 mozilla.mozillians                      For discussions about how to <a href="http://wiki.mozilla.org/Grow">grow Mozilla</a> and bring in new contributors.
 mozilla.privacy                         Forum for discussion of privacy issues and Mozilla's response. (Moderated)
-mozilla.product-management              Discussion of techniques for product management. (Moderated)
 mozilla.tools                           Discussion of the software development tools the Mozilla project uses (Hg, buildbot, Tinderbox, bonsai...) (Moderated)
 mozilla.wishlist                        For discussions of future ideas, ranging from the practical to the far out.
 
@@ -38,18 +34,15 @@ mozilla.dev.fxos                        For development of all parts of Firefox 
 mozilla.dev.marketplace                 For development of the Mozilla Marketplace and addons.mozilla.org. (Moderated)
 mozilla.dev.webapps                     For development of our Open Web Apps site and ecosystem. (Moderated)
 mozilla.dev.identity                    Identity in the browser (BrowserID/Mozilla Persona)
-mozilla.dev.identity.performance        Improving the performance of our identity solutions. (Moderated)
 mozilla.dev.apps.bugzilla               For development of the Bugzilla bug-tracking system (for support, see <a href="#support-bugzilla">mozilla.support.bugzilla</a>).
 mozilla.dev.apps.calendar               For development of the standard-based <a href="/projects/calendar/">Calendar</a> projects - Sunbird and Lightning.
 mozilla.dev.apps.chatzilla              For development of the Chatzilla IRC chat extension.
 mozilla.dev.apps.dom-inspector          For development of the DOM Inspector, an extension to help web developers peer inside pages.
-mozilla.dev.apps.js-debugger            For discussions about the JavaScript Debugger (<a href="/projects/venkman/">Venkman</a>). Questions about how to use, program, or document the debugger, as well as feature requests are on-topic here.
 mozilla.dev.apps.seamonkey              This forum is for developers working on <a href="http://www.seamonkey-project.org/">Seamonkey</a>, the community continuation of the Mozilla software suite.
 
 :General Development
 
 mozilla.dev.accessibility               For the work to make Mozilla products accessible.
-mozilla.dev.amo                         Development of <a href="https://addons.mozilla.org/">addons.mozilla.org</a>
 mozilla.dev.automation                  For development discussion about test automation. (Moderated)
 mozilla.dev.bluetooth                   Bluetooth-related topics
 mozilla.dev.b2gdroid                    B2GDroid is the Android Homescreen version of B2G (Firefox OS). (Moderated)
@@ -57,11 +50,9 @@ mozilla.dev.builds                      For discussions about compiling the sour
 mozilla.dev.chat                        The real-time chat capabilities in the Mozilla platform (IM, IRC etc.) (Moderated)
 mozilla.dev.community-tools             The tools Mozilla uses to manage its community. (Moderated)
 mozilla.dev.decentralization            Data decentralization in and for Mozilla services.
-mozilla.dev.embedding                   For <a href="/projects/embedding/">embedding</a> Mozilla components such as Gecko, ender, and JavaScript into software.
 mozilla.dev.flyweb                      <a href="https://wiki.mozilla.org/FlyWeb">FlyWeb is a project which aims to enable websites to discover, connect to, and directly communicate with other nearby web-enabled devices (Moderated)
-mozilla.dev.fxos.sync                   Syncing Firefox OS data (contacts, calendar etc.) with online servers
+mozilla.dev.fxos.sync                   Syncing Firefox OS data (contacts, calendar etc.) with online servers. (Moderated)
 mozilla.dev.geolocation                 Development of geolocation services. (Moderated)
-mozilla.dev.i18n                        For discussions about <a href="/projects/intl/">internationalization</a> (I18N) issues. I18N is the infrastructure that allows software to be <a href="#dev-l10n">localized</a>.
 mozilla.dev.js-sourcemap                The JS sourcemap project, which maps obfuscated JS back to the original version for debugging. (Moderated)
 mozilla.dev.l10n                        For <a href="https://wiki.mozilla.org/L10n:Home_Page">localization</a> (L10N) issues. L10N is the process of adapting software to a specific language and culture (see also <a href="#mozilla-i18n">internationalization</a>).
 mozilla.dev.mdc                         Discussion about developer documentation on <a href="http://developer.mozilla.org/">MDN Documentation Center</a> (MDC) (Moderated)
@@ -75,6 +66,7 @@ mozilla.dev.platform                    For people working on Mozilla-the-platfo
 mozilla.dev.platform.ux                 For discussions between the UX and Platform teams (Moderated)
 mozilla.dev.power                       Improving our products' power usage. (Moderated)
 mozilla.dev.privacy                     Development of features specifically design to enhance user privacy.
+mozilla.dev.project-link                Project Link aims to be your own, personal user agent for the smart home. (Moderated)
 mozilla.dev.push                        For discussion regarding development of SimplePush, WebPush and other Push-related servers. (Moderated)
 mozilla.dev.raspberry-pi                Putting Mozilla software, such as Firefox OS, on the <a href="http://www.raspberrypi.org/">Raspberry Pi</a> (Moderated)
 mozilla.dev.rtl                         Right-to-left language support. (Moderated)
@@ -102,6 +94,7 @@ mozilla.tools.pulse                     The Pulse tool for event-driven notifica
 mozilla.tools.puppetagain               The <a href="https://wiki.mozilla.org/ReleaseEngineering/PuppetAgain">PuppetAgain</a> deployment automation tool. (Moderated)
 mozilla.tools.socorro                   The Socorro crash-reporting system.
 mozilla.tools.taskcluster               Mozilla's next-generation build and test infrastructure. (Moderated)
+mozilla.tools.treeherder                Discussions about the Mozilla <a href="https://wiki.mozilla.org/Auto-tools/Projects/Treeherder">Treeherder</a> project. (Moderated)
 mozilla.tools.wiki                      The team working on the Mozilla wiki(s). (Moderated)
 mozilla.dev.services.circus             Development of circus, a process runner and watcher. (Moderated)
 mozilla.addons.user-experience          Improving the user experience for using/installing/managing addons in Firefox. (Moderated)
@@ -130,15 +123,12 @@ mozilla.dev.tech.svg                    This is the project forum for implementi
 mozilla.dev.tech.xforms                 For discussion about XForms in Firefox and Mozilla.
 mozilla.dev.tech.xml                    For discussions about using XML in Mozilla.
 mozilla.dev.tech.xpcom                  This forum is for discussions about the Cross-Platform Component Object Model (<a href="https://developer.mozilla.org/docs/Mozilla/Tech/XPCOM">XPCOM</a>) that we are using to purvey and discover interfaces between independently versioned and loaded modules.
-mozilla.dev.tech.xpinstall              For discussions about <a href="/projects/xpinstall/">installation</a> related technology in Mozilla including packaging and updating.
 mozilla.dev.tech.xslt                   For discussions of use of the <a href="http://www.w3.org/TR/xslt">XSL Transformations</a> language in the Mozilla layout engine.
-mozilla.dev.tech.xul                    For discussion about the XML-based User-interface Language (XUL).
 mozilla.dev.ports.os2                   For discussions about <a href="/ports/os2/">porting Mozilla to OS/2</a>.
 
 :Quality Assurance
 
 mozilla.dev.quality                     For <a href="https://quality.mozilla.org/">QA</a> discussion, including using Bugzilla, Mozilla testing, and bug triaging. Do not report bugs here.
-mozilla.qa.b2g                          QA for B2G. (Moderated)
 mozilla.qa.webmaker                     QA for Webmaker projects. (Moderated)
 mozilla.bugmasters                      Our intrepid bug handling team. (Moderated)
 mozilla.compatibility                   Web compatibility - making the web safe for standards-compliant browsers, one site at a time. (Moderated)
@@ -160,13 +150,11 @@ mozilla.community.local-sites           For development of local Mozilla communi
 
 mozilla.community.drumbeat              Main Drumbeat newsgroup
 mozilla.drumbeat.website                For people working on <a href="http://www.drumbeat.org/">www.drumbeat.org</a>
-mozilla.drumbeat.p2pu                   Drumbeat project: Open Web Track at Peer-to-Peer University
 mozilla.drumbeat.privacy-icons          Drumbeat project: Privacy Icons
 mozilla.drumbeat.barcelona              Drumbeat community in Barcelona
 mozilla.drumbeat.festival               Organization of the yearly Drumbeat Festival
 mozilla.community.ignite                Mozilla's involvement in the <a href="https://mozillaignite.org/">US Ignite</a> project. (Moderated)
 mozilla.community.mojo                  The Knight-Mozilla News Technology Initiative - Mozilla and Journalism, or MoJo.
-mozilla.education.hackasaurus           The Hackasaurus project to get kids hacking the open web. (Moderated)
 mozilla.dev.popcorn                     Development of popcorn.js, the HTML5 video toolkit. (Moderated)
 mozilla.mdn.services                    Mailing list for discussing MDN Services project
 mozilla.participation.infrastructure    Discussion and announcements around Participation Infrastructure tools and initiatives.
@@ -215,7 +203,6 @@ mozilla.community.mexico                The Mozilla community in Mexico.
 mozilla.community.mongolia              The Mozilla community in Mongolia. (Moderated)
 mozilla.community.morocco               The Mozilla community in Morocco. (Moderated)
 mozilla.community.nepal                 The Mozilla community in Nepal. (Moderated)
-mozilla.community.new-zealand           The Mozilla community in New Zealand.
 mozilla.community.nigeria               The Mozilla community in Nigeria.
 mozilla.community.norway                The Mozilla community in Norway. (Moderated)
 mozilla.community.pakistan              The Mozilla community in Pakistan. (Moderated)
@@ -244,6 +231,7 @@ mozilla.dev.l10n.announce               Announcements about new localization pro
 mozilla.dev.l10n.new-locales            For people willing to start a new localization team (a new locale). Connect with other speakers of your language and get help from other community members. (Moderated)
 mozilla.dev.l10n.ar                     Arabic localization discussions.
 mozilla.dev.l10n.bm                     Bambara localization discussions.
+mozilla.dev.l10n.cy                     Welsh localization discussions. (Moderated)
 mozilla.dev.l10n.fa                     Persian localization discussions.
 mozilla.dev.l10n.hi                     Hindi localization discussions. (Moderated)
 mozilla.dev.l10n.hr                     Croatian localization discussions. (Moderated)
@@ -288,9 +276,7 @@ mozilla.community.crafting              Mozillians making craft-y things. (Moder
 mozilla.community.devderby              The Mozilla monthly Developer Derby for web developers. (Moderated)
 mozilla.community.digital-freedom       Discussion of, and resistance to, laws which work against Mozilla's mission. (Moderated)
 mozilla.community.diversity             A group to plan, build, teach, empower, and grow our diversity skills project-wide. (Moderated)
-mozilla.community.games                 Building games in HTML5. (Moderated)
 mozilla.community.linux                 Users of both Linux and Mozilla software. (Moderated)
-mozilla.community.web-standards         The community of Mozilla people involved in web standards efforts.
 mozilla.cbt.education                   Community Building Team - Education group.
 
 :End-User Support
