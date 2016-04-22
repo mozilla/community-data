@@ -82,7 +82,7 @@ mozilla.dev.themes                      For theme developers.
 mozilla.dev.tree-alerts                 Automated messages about continuous build issues. (Moderated)
 mozilla.dev.tree-management             For discussion about general development tree health and practices for managing it.
 mozilla.dev.tree-management.tracemonkey For management of the separate tracemonkey tree
-mozilla.dev.usability                   For discussions on <a href="/projects/ui/">user interface</a> and usability issues, including future directions, cross-platform consistency, and so on. (Moderated)
+mozilla.dev.usability                   For discussions on user interface and usability issues, including future directions, cross-platform consistency, and so on. (Moderated)
 mozilla.dev.version-control             For discussion about the use of version control systems within Mozilla. (Moderated)
 mozilla.dev.developer-tools             For development of tools for web developers inside Firefox and other Mozilla products. (Moderated)
 mozilla.release.engineering             Release engineering at Mozilla (Moderated)
@@ -162,7 +162,6 @@ mozilla.webmaker                        The Webmaker initiative - teaching the w
 mozilla.webmaker.brasil                 Webmaker initiative in Brazil. (Moderated)
 mozilla.webmaker.canada.bc              Webmaker initiative in British Columbia, Canada. (Moderated)
 mozilla.webmaker.l10n                   Localization of Webmaker content. (Moderated)
-mozilla.inform                          <a href="https://inform.mozilla.org/">Educating those who talk to policymakers</a>, helping them explain policy issues well. (Moderated)
 
 :Regional
 
