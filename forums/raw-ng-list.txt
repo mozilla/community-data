@@ -102,7 +102,6 @@ mozilla.tools.taskcluster               Mozilla's next-generation build and test
 mozilla.tools.treeherder                Discussions about the Mozilla <a href="https://wiki.mozilla.org/Auto-tools/Projects/Treeherder">Treeherder</a> project. (Moderated)
 mozilla.tools.wiki                      The team working on the Mozilla wiki(s). (Moderated)
 mozilla.dev.services.circus             Development of circus, a process runner and watcher. (Moderated)
-mozilla.addons.user-experience          Improving the user experience for using/installing/managing addons in Firefox. (Moderated)
 mozilla.dev.memory                      Improving Firefox's memory usage
 
 :Mozilla Technologies
@@ -141,7 +140,6 @@ mozilla.compatibility                   Web compatibility - making the web safe 
 
 :Extension Development
 
-mozilla.dev.extensions                  For extension developers.
 mozilla.dev.extensions.br               Extension development discussion in Brazilian Portuguese
 mozilla.addons.chromebug                Development of Chromebug, a chrome debugger.
 
