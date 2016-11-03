@@ -1,0 +1,69 @@
+#!/usr/bin/perl -w
+
+use Net::NNTP;
+use Array::Diff;
+use Data::Dumper;
+
+my $nntp = Net::NNTP->new("news.mozilla.org");
+
+my $list = $nntp->list();
+
+my @servergroups = sort keys(%$list);
+@servergroups = grep { $_ =~ /^mozilla/ } @servergroups;
+my @modservergroups = grep { $list->{$_}->[2] eq 'm' } @servergroups;
+
+my @filegroups = ();
+my @modfilegroups = ();
+
+open(RAWLIST, "<raw-ng-list.txt");
+while (<RAWLIST>) {
+    my $line = $_;
+
+    chomp($line);
+
+    if ($line =~ /^(mozilla.[\w\-\.]+)/) {
+        my $name = $1;
+        push (@filegroups, $name);
+        
+        if ($line =~ /Moderated/) {
+            push (@modfilegroups, $name);
+        }
+    }
+    
+}
+
+@filegroups = sort(@filegroups);
+@modfilegroups = sort(@modfilegroups);
+
+diff_arrays(\@servergroups,
+            \@filegroups,
+            "Listed on server but not in file",
+            "Listed in file but not on server");
+
+diff_arrays(\@modservergroups,
+            \@modfilegroups,
+            "Moderated on server but not in file",
+            "Moderated in file but not on server");
+
+exit();
+
+sub diff_arrays {
+    my ($server, $file, $delstr, $addstr) = @_;
+
+    my $diff = Array::Diff->diff($server, $file);
+
+    if (scalar @{$diff->deleted}) {
+        print "$delstr: \n\n";
+        print join("\n", @{$diff->deleted});
+
+        print "\n\n";
+    }
+
+    if (scalar @{$diff->added}) {
+        print "$addstr: \n\n";
+        print join("\n", @{$diff->added});
+
+        print "\n\n";
+    }
+}
+

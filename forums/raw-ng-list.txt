@@ -45,6 +45,7 @@ mozilla.dev.apps.seamonkey              This forum is for developers working on 
 mozilla.dev.accessibility               For the work to make Mozilla products accessible.
 mozilla.activity-stream                 The Firefox "activity stream" feature. (Moderated)
 mozilla.apis                            Providing a uniform interface to mozilla's platform APIs. (Moderated)
+mozilla.autofill                        Discussion forum for Form Autofill and Payment implementation on Firefox (Moderated)
 mozilla.dev.automation                  For development discussion about test automation. (Moderated)
 mozilla.dev.bluetooth                   Bluetooth-related topics
 mozilla.dev.b2gdroid                    B2GDroid is the Android Homescreen version of B2G (Firefox OS). (Moderated)
@@ -71,6 +72,7 @@ mozilla.dev.power                       Improving our products' power usage. (Mo
 mozilla.dev.privacy                     Development of features specifically design to enhance user privacy.
 mozilla.dev.project-link                Project Link aims to be your own, personal user agent for the smart home. (Moderated)
 mozilla.dev.push                        For discussion regarding development of SimplePush, WebPush and other Push-related servers. (Moderated)
+mozilla.dev.quantum                     Discussion list for the <a href="https://wiki.mozilla.org/Quantum">Quantum</a> project. (Moderated)
 mozilla.dev.raspberry-pi                Putting Mozilla software, such as Firefox OS, on the <a href="http://www.raspberrypi.org/">Raspberry Pi</a> (Moderated)
 mozilla.dev.rtl                         Right-to-left language support. (Moderated)
 mozilla.dev.security                    <a href="/security/">Security</a> issues such as specific security problems or ideas for making the code as a whole more secure can be discussed here. <a href="#dev-tech-crypto">Cryptography</a>, however, is not within this group's charter. (Moderated)
@@ -95,6 +97,7 @@ mozilla.tools.bmo                       Development of bugzilla.mozilla.org, Moz
 mozilla.tools.elmo                      Development of web apps for localization (l10n). (Moderated)
 mozilla.tools.l10n                      Development of tools for l10n. (Moderated)
 mozilla.tools.marionette                Marionette is a browser automation framework based on the W3C WebDriver Spec. (Moderated)
+mozilla.tools.phonebook                 Mozilla Corporation's internal phonebook tool. (Moderated)
 mozilla.tools.pulse                     The Pulse tool for event-driven notifications.
 mozilla.tools.puppetagain               The <a href="https://wiki.mozilla.org/ReleaseEngineering/PuppetAgain">PuppetAgain</a> deployment automation tool. (Moderated)
 mozilla.tools.socorro                   The Socorro crash-reporting system.
