@@ -89,6 +89,7 @@ mozilla.dev.themes                      For theme developers.
 mozilla.dev.tree-alerts                 Automated messages about continuous build issues. (Moderated)
 mozilla.dev.tree-management             For discussion about general development tree health and practices for managing it.
 mozilla.dev.tree-management.tracemonkey For management of the separate tracemonkey tree
+mozilla.dev.ui-alerts                   Automated messages about UI changes. (Moderated)
 mozilla.dev.usability                   For discussions on user interface and usability issues, including future directions, cross-platform consistency, and so on. (Moderated)
 mozilla.dev.version-control             For discussion about the use of version control systems within Mozilla. (Moderated)
 mozilla.dev.developer-tools             For development of tools for web developers inside Firefox and other Mozilla products. (Moderated)
