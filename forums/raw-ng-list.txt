@@ -144,6 +144,7 @@ mozilla.compatibility                   Web compatibility - making the web safe 
 
 :Extension Development
 
+dev-addons                              Development of the add-on ecosystem, including <a href="https://addons.mozilla.org/">addons.mozilla.org</a>, WebExtensions and developing add-ons.
 mozilla.dev.extensions.br               Extension development discussion in Brazilian Portuguese
 mozilla.addons.chromebug                Development of Chromebug, a chrome debugger.
 
