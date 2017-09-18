@@ -275,7 +275,6 @@ mozilla.community.crafting              Mozillians making craft-y things. (Moder
 mozilla.community.devderby              The Mozilla monthly Developer Derby for web developers. (Moderated)
 mozilla.community.digital-freedom       Discussion of, and resistance to, laws which work against Mozilla's mission. (Moderated)
 mozilla.community.diversity             A group to plan, build, teach, empower, and grow our diversity skills project-wide. (Moderated)
-mozilla.community.platform-ops          The Platform Ops community. (Moderated)
 mozilla.cbt.education                   Community Building Team - Education group.
 
 :End-User Support
