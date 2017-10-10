@@ -77,7 +77,6 @@ mozilla.dev.security                    <a href="/security/">Security</a> issues
 mozilla.dev.security.policy             Discussion of security-related policies, governance, and related topics; and responsibility for the Mozilla CA certificate policy. (Moderated)
 mozilla.dev.sensorweb                   The SensorWeb IOT project. (Moderated)
 mozilla.dev.servo                       For development of servo, a parallelized rendering engine. (Moderated)
-mozilla.dev.shumway                     Shumway, an implementation of Flash in JavaScript. (Moderated)
 mozilla.dev.static-analysis             For discussion about Pork, Dehydra, rewriting and static analysis projects.
 mozilla.dev.super-review                This forum is a mirror of the <a href="/hacking/reviewers.html">super-review</a> mailing list. Requests for patch review and change of review status in Bugzilla are automatically posted here. (Moderated)
 mozilla.dev.telemetry-alerts            Automated alerts from our telemetry monitors. (Moderated)
