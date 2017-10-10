@@ -70,7 +70,6 @@ mozilla.dev.power                       Improving our products' power usage. (Mo
 mozilla.dev.privacy                     Development of features specifically design to enhance user privacy.
 mozilla.dev.project-link                Project Link aims to be your own, personal user agent for the smart home. (Moderated)
 mozilla.dev.push                        For discussion regarding development of SimplePush, WebPush and other Push-related servers. (Moderated)
-mozilla.dev.quantum                     Discussion list for the <a href="https://wiki.mozilla.org/Quantum">Quantum</a> project. (Moderated)
 mozilla.dev.raspberry-pi                Putting Mozilla software, such as Firefox OS, on the <a href="http://www.raspberrypi.org/">Raspberry Pi</a> (Moderated)
 mozilla.dev.rtl                         Right-to-left language support. (Moderated)
 mozilla.dev.security                    <a href="/security/">Security</a> issues such as specific security problems or ideas for making the code as a whole more secure can be discussed here. <a href="#dev-tech-crypto">Cryptography</a>, however, is not within this group's charter. (Moderated)
