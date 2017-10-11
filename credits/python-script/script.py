@@ -2,7 +2,7 @@ import csv
 import requests
 import sys
 
-def process_credits(lower_bound, upper_bound, names_to_be_added, names_added, emails):
+def process_credits(lower_bound, upper_bound, names_to_be_added, names_added, emails, checkin):
 	
 	response_data_url  = "https://docs.google.com/spreadsheet/ccc?key=0AtLNtYDDyKsudFNTSFR2WlFuOFpUQ2N2bXpPLUFTUnc&output=csv"
 
@@ -12,7 +12,7 @@ def process_credits(lower_bound, upper_bound, names_to_be_added, names_added, em
 		data = csv.reader(decoded_content.splitlines(), delimiter=',')
 		for row in (r for i, r in enumerate(data) if lower_bound<=i<=upper_bound):
 			if row[-1] == 'Y':
-				data = "{name},{sortkey},{email}".format(name=row[1], sortkey=row[2], email=row[3])
+				data = "{name},{sortkey},{email},{citation}".format(name=row[1], sortkey=row[2], email=row[3], citation=row[4])
 				names_to_be_added.append(data)
 
 	with open('../names.csv', 'r') as names:
@@ -26,6 +26,7 @@ def process_credits(lower_bound, upper_bound, names_to_be_added, names_added, em
 			if flag == False:
 				emails.append(to_add_name.split(',')[2])
 				names_added.append((',').join(to_add_name.split(',')[0:2]))
+				checkin.append("Name - {name} <{email}> <{citation}>;".format(name=to_add_name.split(',')[0], email=to_add_name.split(',')[2], citation=to_add_name.split(',')[3]))
 			else:
 				# If one entry is found to be existing in names.csv, it will simply ignore this and proceed with next one after printing this.
 				print("Found duplicate name - {name}".format(name=to_add_name.split(',')[0]), " - Skipping this entry and proceeding.")
@@ -36,6 +37,7 @@ def process_credits(lower_bound, upper_bound, names_to_be_added, names_added, em
 		# Printing count and email ids at the end.
 		print("Total number of names added: ", len(emails))
 		print("Email IDs to send mails to: ", emails)
+		print("Commit message: \n", checkin)
 
 if __name__ == "__main__":
 	lower_bound = sys.argv[1]
@@ -43,6 +45,7 @@ if __name__ == "__main__":
 	names_to_be_added = []
 	names_added = []
 	emails = []
+	checkin = []
 	# lower_boud and upper_bound are substracted by 1 to ignore first heading row from excel file. 
 	# Providing 2 & 3 as inputs to this script will process first & second entry of excel sheet as they are the ones in row 2 & 3 of excel sheet.
-	process_credits(int(lower_bound)-1, int(upper_bound)-1, names_to_be_added, names_added, emails)
+	process_credits(int(lower_bound)-1, int(upper_bound)-1, names_to_be_added, names_added, emails, checkin)
