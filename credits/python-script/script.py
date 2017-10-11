@@ -15,7 +15,7 @@ def process_credits(lower_bound, upper_bound, names_to_be_added, names_added, em
 				data = "{name},{sortkey},{email}".format(name=row[1], sortkey=row[2], email=row[3])
 				names_to_be_added.append(data)
 
-	with open('names.csv', 'r') as names:
+	with open('../names.csv', 'r') as names:
 		data_name = csv.reader(names)
 		for to_add_name in names_to_be_added:
 			flag = False
@@ -30,7 +30,7 @@ def process_credits(lower_bound, upper_bound, names_to_be_added, names_added, em
 				# If one entry is found to be existing in names.csv, it will simply ignore this and proceed with next one after printing this.
 				print("Found duplicate name - {name}".format(name=to_add_name.split(',')[0]), " - Skipping this entry and proceeding.")
 
-	with open('names.csv', 'a') as names:
+	with open('../names.csv', 'a') as names:
 		for name in names_added:
 			names.write(name+'\n')
 		# Printing count and email ids at the end.
