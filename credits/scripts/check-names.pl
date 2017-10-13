@@ -91,7 +91,7 @@ for (my $i = $from; $i <= $to; $i++) {
     $sortkey = lc(unac_string('utf-8', $sortkey));
 
     # Check for duplicate
-    open(my $NAMES, '<:encoding(utf8)', "names.csv") || abort("Can't open names.csv");
+    open(my $NAMES, '<:encoding(utf8)', "../names.csv") || abort("Can't open names.csv");
     my %names;
     while (<$NAMES>) {
         chomp;
@@ -106,11 +106,11 @@ for (my $i = $from; $i <= $to; $i++) {
     my $line = "$name,$sortkey";
 
     # Add name and commit
-    system("echo $line >> names.csv");
+    system("echo $line >> ../names.csv");
 
     print "($sortkey) " . $checkin . "\n";
 
-    system("git commit names.csv -m '$checkin'");
+    system("git commit ../names.csv -m '$checkin'");
 
     push(@emails, $email);
 }
