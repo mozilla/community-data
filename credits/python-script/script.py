@@ -46,6 +46,6 @@ if __name__ == "__main__":
 	names_added = []
 	emails = []
 	checkin = []
-	# lower_boud and upper_bound are substracted by 1 to ignore first heading row from excel file. 
+	# lower_bound and upper_bound are substracted by 1 to ignore first heading row from excel file. 
 	# Providing 2 & 3 as inputs to this script will process first & second entry of excel sheet as they are the ones in row 2 & 3 of excel sheet.
 	process_credits(int(lower_bound)-1, int(upper_bound)-1, names_to_be_added, names_added, emails, checkin)
