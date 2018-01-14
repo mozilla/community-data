@@ -4,7 +4,6 @@ import sys
 import git
 
 def process_credits(lower_bound, upper_bound, names_to_be_added, names_added, emails, checkin, repo):
-	
 	response_data_url  = "https://docs.google.com/spreadsheet/ccc?key=0AtLNtYDDyKsudFNTSFR2WlFuOFpUQ2N2bXpPLUFTUnc&output=csv"
 
 	with requests.Session() as s:
@@ -40,9 +39,9 @@ def process_credits(lower_bound, upper_bound, names_to_be_added, names_added, em
 		repo.git.commit(m=commit_message)
 
 	# Printing count and email ids at the end.
-	print("Total number of names added: ", len(emails))
-	print("Email IDs to send mails to: ", emails)
-	print("Names of newly added contributors: ", names_added)
+	print("\nTotal number of names added: ", len(emails))
+	print("\nEmail IDs to send mails to: ", emails)
+	print("\nNames of newly added contributors: ", names_added)
 
 if __name__ == "__main__":
 	repo = git.Repo('../../')
