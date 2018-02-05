@@ -10,7 +10,6 @@ mozilla.governance                      Governance of the Mozilla Project. (Mode
 mozilla.affiliates                      The Mozilla Affiliates program, encouraging people to spread the news about Firefox and other Mozilla software (Moderated)
 mozilla.education                       For Mozilla's education initiatives. (Moderated)
 mozilla.evangelism                      Spreading the word. (Moderated)
-mozilla.events                          For discussions about Mozilla events.
 mozilla.general                         For everything with no forum of its own: discussion about any and all aspects of all the things that we're doing here at mozilla.org (high traffic; often off-topic).
 mozilla.jobs                            For use by those interested in hiring folks to work on Mozilla-related projects as well as by those seeking such work. (Moderated)
 mozilla.join                            The Join Mozilla public engagement initiative
@@ -81,7 +80,6 @@ mozilla.dev.super-review                This forum is a mirror of the <a href="/
 mozilla.dev.telemetry-alerts            Automated alerts from our telemetry monitors. (Moderated)
 mozilla.dev.themes                      For theme developers.
 mozilla.dev.tree-alerts                 Automated messages about continuous build issues. (Moderated)
-mozilla.dev.tree-management             For discussion about general development tree health and practices for managing it.
 mozilla.dev.tree-management.tracemonkey For management of the separate tracemonkey tree
 mozilla.dev.ui-alerts                   Automated messages about UI changes. (Moderated)
 mozilla.dev.usability                   For discussions on user interface and usability issues, including future directions, cross-platform consistency, and so on. (Moderated)
