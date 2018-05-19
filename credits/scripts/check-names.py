@@ -12,7 +12,7 @@ def process_credits(lower_bound, upper_bound, names_to_be_added, names_added, em
 		data = csv.reader(decoded_content.splitlines(), delimiter=',')
 		for row in (r for i, r in enumerate(data) if lower_bound<=i<=upper_bound):
 			if row[-1] == 'Y':
-				data = "{name},{sortkey},{email},{citation}".format(name=row[1], sortkey=row[2], email=row[3], citation=row[4])
+				data = "{name}:{sortkey}:{email}:{citation}".format(name=row[1], sortkey=row[2], email=row[3], citation=row[4])
 				names_to_be_added.append(data)
 
 	with open('../names.csv', 'r') as names:
@@ -20,16 +20,16 @@ def process_credits(lower_bound, upper_bound, names_to_be_added, names_added, em
 		for to_add_name in names_to_be_added:
 			flag = False
 			for data in data_name:
-				if data[0] == to_add_name.split(',')[0]:
+				if data[0] == to_add_name.split(':')[0]:
 					flag = True
 					break
 			if flag == False:
-				emails.append(to_add_name.split(',')[2])
-				names_added.append((',').join(to_add_name.split(',')[0:2]))
-				checkin.append("{name} <{email}>: \"{citation}\"".format(name=to_add_name.split(',')[0], email=to_add_name.split(',')[2], citation=to_add_name.split(',')[3]))
+				emails.append(to_add_name.split(':')[2])
+				names_added.append((',').join(to_add_name.split(':')[0:2]))
+				checkin.append("{name} <{email}>: \"{citation}\"".format(name=to_add_name.split(':')[0], email=to_add_name.split(':')[2], citation=to_add_name.split(':')[3]))
 			else:
 				# If one entry is found to be existing in names.csv, it will simply ignore this and proceed with next one after printing this.
-				print("Found duplicate name - {name}".format(name=to_add_name.split(',')[0]), " - Skipping this entry and proceeding.")
+				print("Found duplicate name - {name}".format(name=to_add_name.split(':')[0]), " - Skipping this entry and proceeding.")
 
 	for name, commit_message in zip(names_added, checkin):
 		with open('../names.csv', 'a') as names:
