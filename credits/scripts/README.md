@@ -29,4 +29,14 @@ python script.py <lower bound in integer> <upper bound in integer>
 # It takes all Y entries from sheet and adds them to names.csv
 # Dont forget to update sheet to mark Y entries to DONE entries after this is done
 ```
-
+* Mac Commands Gist:
+```
+cd community-data
+brew install python
+brew upgrade python
+virtualenv -p python3 venv
+source venv/bin/activate
+cd credits/scripts/
+pip install -r requirements.txt
+python check-names.py lower-bound upper-bound
+```
