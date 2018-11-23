@@ -180,7 +180,6 @@ mozilla.community.uk                    The Mozilla community in the United King
 mozilla.community.vietnam               The Mozilla community in Vietnam. (Moderated)
 
 mozilla.dev.general.zh                  Mozilla project development discussion in Chinese. (Moderated)
-mozilla.webapps.pt-br                   Web application development in Brazilian Portuguese. (Moderated)
 
 :Localization
 
