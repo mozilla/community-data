@@ -23,9 +23,7 @@ mozilla.activity-stream                 The Firefox "activity stream" feature. (
 mozilla.apis                            Providing a uniform interface to mozilla's platform APIs. (Moderated)
 mozilla.autofill                        Discussion forum for Form Autofill and Payment implementation on Firefox (Moderated)
 mozilla.dev.builds                      For discussions about compiling the source code or improving the build system.
-mozilla.dev.chat                        The real-time chat capabilities in the Mozilla platform (IM, IRC etc.) (Moderated)
 mozilla.dev.community-tools             The tools Mozilla uses to manage its community. (Moderated)
-mozilla.context-graph                   The Firefox "context graph" feature. (Moderated)
 mozilla.dev.decentralization            Data decentralization in and for Mozilla services.
 mozilla.dev.geolocation                 Development of geolocation services. (Moderated)
 mozilla.dev.js-sourcemap                The JS sourcemap project, which maps obfuscated JS back to the original version for debugging. (Moderated)
@@ -107,8 +105,6 @@ mozilla.compatibility                   Web compatibility - making the web safe 
 :Extension Development
 
 dev-addons                              Development of the add-on ecosystem, including <a href="https://addons.mozilla.org/">addons.mozilla.org</a>, WebExtensions and developing add-ons.
-mozilla.dev.extensions.br               Extension development discussion in Brazilian Portuguese
-mozilla.addons.chromebug                Development of Chromebug, a chrome debugger.
 
 :Web Development
 
@@ -121,110 +117,16 @@ mozilla.community.local-sites           For development of local Mozilla communi
 mozilla.mdn.services                    Mailing list for discussing MDN Services project
 mozilla.participation.infrastructure    Discussion and announcements around Participation Infrastructure tools and initiatives.
 
-:Regional
-
-mozilla.community.africa                The Mozilla community in Africa. (Moderated)
-mozilla.community.algeria               The Mozilla community in Algeria. (Moderated)
-mozilla.community.antarctica            The Mozilla community in Antarctica. (Moderated)
-mozilla.community.arab-world            The Mozilla community in the Arab world.
-mozilla.community.australia             The Mozilla community in Australia. (Moderated)
-mozilla.community.balkans               The Mozilla community in the Balkans.
-mozilla.community.bangladesh            The Mozilla community in Bangladesh. (Moderated)
-mozilla.community.belgium               The Mozilla community in Belgium.
-mozilla.community.berlin                The Mozilla community in Berlin. (Moderated)
-mozilla.community.brasil                The Mozilla community in Brazil. (Moderated)
-mozilla.community.bulgaria              The Mozilla community in Bulgaria.
-mozilla.community.canada                The Mozilla community in Canada. (Moderated)
-mozilla.community.chile                 The Mozilla community in Chile. (Moderated)
-mozilla.community.colombia              The Mozilla community in Colombia. (Moderated)
-mozilla.community.croatia               The Mozilla community in Croatia. (Moderated)
-mozilla.community.denmark               The Mozilla community in Denmark. (Moderated)
-mozilla.community.dutch                 The Mozilla Dutch-speaking community. (Moderated)
-mozilla.community.esperanto             The Mozilla Esperanto-speaking community. (Moderated)
-mozilla.community.german                The Mozilla German-speaking community. (Moderated)
-mozilla.community.ghana                 The Mozilla community in Ghana.
-mozilla.community.greece                The Mozilla community in Greece. (Moderated)
-mozilla.community.hungary               The Mozilla community in Hungary. (Moderated)
-mozilla.community.iceland               The Mozilla community in Iceland. (Moderated)
-mozilla.community.india                 The Mozilla community in India.
-mozilla.community.india.dev             Development work on the web presence of the Mozilla community in India. (Moderated)
-mozilla.community.indonesia             The Mozilla community in Indonesia. (Moderated)
-mozilla.community.iran                  The Mozilla community in Iran. (Moderated)
-mozilla.community.ireland               The Mozilla community in Ireland. (Moderated)
-mozilla.community.kenya                 The Mozilla community in Kenya.
-mozilla.community.kerala                The Mozilla community in Kerala, India. (Moderated)
-mozilla.community.lithuania             The Mozilla community in Lithuania. (Moderated)
-mozilla.community.malaysia              The Mozilla community in Malaysia. (Moderated)
-mozilla.community.mali                  The Mozilla community in Mali.
-mozilla.community.mexico                The Mozilla community in Mexico.
-mozilla.community.mongolia              The Mozilla community in Mongolia. (Moderated)
-mozilla.community.morocco               The Mozilla community in Morocco. (Moderated)
-mozilla.community.nepal                 The Mozilla community in Nepal. (Moderated)
-mozilla.community.nigeria               The Mozilla community in Nigeria.
-mozilla.community.norway                The Mozilla community in Norway. (Moderated)
-mozilla.community.pakistan              The Mozilla community in Pakistan. (Moderated)
-mozilla.community.philippines           The Mozilla community in the Philippines. (Moderated)
-mozilla.community.portugal              The Mozilla community in Portugal.
-mozilla.community.quebec                The Mozilla community in Quebec, Canada. (Moderated)
-mozilla.community.romania               The Mozilla community in Romania. (Moderated)
-mozilla.community.rwanda                The Mozilla community in Rwanda. (Moderated)
-mozilla.community.senegal               The Mozilla community in Senegal. (Moderated)
-mozilla.community.sri-lanka             The Mozilla community in Sri Lanka. (Moderated)
-mozilla.community.sweden                The Mozilla community in Sweden. (Moderated)
-mozilla.community.switzerland           The Mozilla community in Switzerland. (Moderated)
-mozilla.community.toronto               The Mozilla community in Toronto, Canada. (Moderated)
-mozilla.community.turkey                The Mozilla community in Turkey. (Moderated)
-mozilla.community.tunisia               The Mozilla community in Tunisia.
-mozilla.community.uganda                The Mozilla community in Uganda. (Moderated)
-mozilla.community.uk                    The Mozilla community in the United Kingdom. (Moderated)
-mozilla.community.vietnam               The Mozilla community in Vietnam. (Moderated)
-
-mozilla.dev.general.zh                  Mozilla project development discussion in Chinese. (Moderated)
-
-:Localization
-
-mozilla.dev.l10n.new-locales            For people willing to start a new localization team (a new locale). Connect with other speakers of your language and get help from other community members. (Moderated)
-mozilla.dev.l10n.ar                     Arabic localization discussions.
-mozilla.dev.l10n.bm                     Bambara localization discussions.
-mozilla.dev.l10n.cy                     Welsh localization discussions. (Moderated)
-mozilla.dev.l10n.fa                     Persian localization discussions.
-mozilla.dev.l10n.hi                     Hindi localization discussions. (Moderated)
-mozilla.dev.l10n.hr                     Croatian localization discussions. (Moderated)
-mozilla.dev.l10n.in                     Indian localization discussions.
-mozilla.dev.l10n.km                     Khmer localization discussions. (Moderated)
-mozilla.dev.l10n.lk                     Sri Lankan localization discussions. (Moderated)
-mozilla.dev.l10n.lo                     Lao localization discussions. (Moderated)
-mozilla.dev.l10n.mg                     Malagasy localization discussions.
-mozilla.dev.l10n.mr                     Marathi localization discussions. (Moderated)
-mozilla.dev.l10n.ms                     Malay localization discussions. (Moderated)
-mozilla.dev.l10n.my                     Burmese localization discussions. (Moderated)
-mozilla.dev.l10n.nativo                 The Mozilla Nativo project (l10n into languages and cultures without an existing digital presence). (Moderated)
-mozilla.dev.l10n.pt-br                  Brazilian Portuguese localization discussions. (Moderated)
-mozilla.dev.l10n.sk                     Slovak localization discussions.
-mozilla.dev.l10n.sr                     Serbian localization discussions.
-mozilla.dev.l10n.sw                     Swahili localization discussions. (Moderated)
-mozilla.dev.l10n.ta                     Tamil localization discussions. (Moderated)
-mozilla.dev.l10n.te                     Telugu localization discussions. (Moderated)
-mozilla.dev.l10n.web                    For Mozilla website localization co-ordination.
-mozilla.dev.l10n.wo                     Wolof localization discussions.
-mozilla.dev.l10n.uk                     Ukranian localization discussions.
-mozilla.dev.l10n.vi                     Vietnamese localization discussions. (Moderated)
-mozilla.dev.mdc.es                      For discussion about Spanish content on <a href="http://developer.mozilla.org/es/">Mozilla Developer Center</a>.
-mozilla.dev.mdc.ja                      For discussion about Japanese content on <a href="http://developer.mozilla.org/ja/">Mozilla Developer Center</a>.
-mozilla.dev.mdc.pt                      For discussion about Portuguese content on <a href="http://developer.mozilla.org/pt/">Mozilla Developer Center</a>.
-
 :Mozilla Reps
 
 mozilla.reps.general                    <a href="https://wiki.mozilla.org/ReMo">ReMo</a> - the Mozilla Reps program
 mozilla.reps.mentors                    ReMo mentors group. (Moderated)
 
-:Other Community Groups
+:Community Groups
 
-mozilla.accessibility                   Discussion of all things related to accessibility. (Moderated)
-mozilla.community.armyofawesome         The Mozilla Army of Awesome twitter helpers.
-mozilla.community.artzilla              The Mozilla Artzilla community of artists.
-mozilla.community.crafting              Mozillians making craft-y things. (Moderated)
-mozilla.community.devderby              The Mozilla monthly Developer Derby for web developers. (Moderated)
+Mozilla Community Discourse             The <a href="https://discourse.mozilla.org">Mozilla Community Discourse instance</a> is the home of Mozilla's community of communities.
+mozilla.dev.l10n.web                    For Mozilla website localization co-ordination.
+Mozilla.accessibility                   Discussion of all things related to accessibility. (Moderated)
 mozilla.community.digital-freedom       Discussion of, and resistance to, laws which work against Mozilla's mission. (Moderated)
 mozilla.community.diversity             A group to plan, build, teach, empower, and grow our diversity skills project-wide. (Moderated)
 
@@ -237,7 +139,6 @@ mozilla.support.seamonkey               Support for SeaMonkey, the community-dri
 mozilla.support.bugzilla                Support for the Bugzilla web-based bug-tracking tool.
 mozilla.support.calendar                Support for the Calendar and Lightning projects. (Moderated)
 mozilla.support.webtools                Support for webtools other than Bugzilla (e.g. Bonsai, Tinderbox, MXR)
-mozilla.support.instantbird             Support for Instantbird, the instant messenger built on Mozilla technologies. (Moderated)
 
 :Testing
 
