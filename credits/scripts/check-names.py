@@ -11,7 +11,7 @@ def process_credits(lower_bound, upper_bound, names_to_be_added, names_added, em
 		decoded_content = download.content.decode('utf-8')
 		data = csv.reader(decoded_content.splitlines(), delimiter=',')
 		for row in (r for i, r in enumerate(data) if lower_bound<=i<=upper_bound):
-			if row[-2] == 'Y':
+			if row[6] == 'Yes':
 				data = "{name}:{sortkey}:{email}:{citation}".format(name=row[1], sortkey=row[2], email=row[3], citation=row[4])
 				names_to_be_added.append(data)
 
