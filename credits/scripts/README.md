@@ -37,6 +37,6 @@ brew upgrade python
 virtualenv -p python3 venv
 source venv/bin/activate
 cd credits/scripts/
-pip install -r requirements.txt
+pip install -r py-requirements.txt
 python check-names.py lower-bound upper-bound
 ```
