@@ -32,8 +32,10 @@ python script.py <lower bound in integer> <upper bound in integer>
 * Mac Commands Gist:
 ```
 cd community-data
-brew install python
-brew upgrade python
+brew install python3
+// brew update-reset (if you have issues installing python, do this and retry above command)
+// brew upgrade python (if required)
+brew install virtualenv
 virtualenv -p python3 venv
 source venv/bin/activate
 cd credits/scripts/
