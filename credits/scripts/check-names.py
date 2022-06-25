@@ -4,7 +4,7 @@ import sys
 import git
 
 def process_credits(lower_bound, upper_bound, names_to_be_added, names_added, emails, checkin, repo):
-	response_data_url  = "https://docs.google.com/spreadsheet/ccc?key=0AtLNtYDDyKsudFNTSFR2WlFuOFpUQ2N2bXpPLUFTUnc&output=csv"
+	response_data_url  = "https://docs.google.com/spreadsheet/ccc?key=__KEY__&output=csv"
 
 	with requests.Session() as s:
 		download = s.get(response_data_url)
