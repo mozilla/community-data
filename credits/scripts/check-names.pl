@@ -33,7 +33,7 @@ if ($from == 1) {
 my $ua = LWP::UserAgent->new;
 $ua->cookie_jar({});
 
-my $response = $ua->get("https://docs.google.com/spreadsheet/ccc?key=0AtLNtYDDyKsudFNTSFR2WlFuOFpUQ2N2bXpPLUFTUnc&output=csv");
+my $response = $ua->get("https://docs.google.com/spreadsheet/ccc?key=__KEY__&output=csv");
 
 if (!$response->is_success) {
     abort("Couldn't get credits data from Google Docs.");
