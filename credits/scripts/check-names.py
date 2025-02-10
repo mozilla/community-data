@@ -4,7 +4,7 @@ import sys
 import git
 
 def process_credits(lower_bound, upper_bound, names_to_be_added, names_added, emails, checkin, repo):
-	response_data_url  = "https://docs.google.com/spreadsheet/ccc?key=__KEY__&output=csv"
+	response_data_url  = "https://docs.google.com/spreadsheet/ccc?key=1GG2QoNqii7lbn7kHK5_MmHCBvYMlvsdyhx_GA96RKn0&output=csv"
 
 	with requests.Session() as s:
 		download = s.get(response_data_url)
@@ -15,7 +15,7 @@ def process_credits(lower_bound, upper_bound, names_to_be_added, names_added, em
 				data = "{name}:{sortkey}:{email}:{citation}".format(name=row[1], sortkey=row[2], email=row[3], citation=row[4])
 				names_to_be_added.append(data)
 
-	with open('../names.csv', 'r') as names:
+	with open('../names.csv', 'r' , encoding='ISO-8859-1') as names:
 		data_name = csv.reader(names)
 		for to_add_name in names_to_be_added:
 			flag = False
@@ -32,7 +32,7 @@ def process_credits(lower_bound, upper_bound, names_to_be_added, names_added, em
 				print("Found duplicate name - {name}".format(name=to_add_name.split(':')[0]), " - Skipping this entry and proceeding.")
 
 	for name, commit_message in zip(names_added, checkin):
-		with open('../names.csv', 'a') as names:
+		with open('../names.csv', 'a',encoding='utf-8') as names:
 			names.write(name+'\n')
 			names.close()
 		repo.git.add('./credits/names.csv')
